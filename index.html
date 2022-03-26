@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Style CSS -->
+  <link class="" rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./responsive.css">
+
+  <!--  Font Awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <title>Hello, world!</title>
+
+</head>
+
+<body>
+
+
+  <!--  Header & MENU section -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-header py-2 px-2">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img class="header-logo" src="/logo-img//logo-1.png" alt=""> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn text-white w-25" type="submit"> <i class="fas fa-search    "></i> </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner section  -->
+  <div id="carouselId" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselId" data-slide-to="1"></li>
+      <li data-target="#carouselId" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <img class="w-100 banner-image" src="./img//bg-1.jpg" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h3> The mountains </h3>
+          <p> Lorem ipsum dolor sit amet consectetur. </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="w-100 banner-image" src="./img//bg-2.jpg" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h3> Evening </h3>
+          <p class="w-50 mx-auto"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium distinctio
+            quibusdam explicabo debitis laudantium totam! </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="w-100 banner-image" src="./img//bg-3.jpg" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Early morning</h3>
+          <p class="w-50 mx-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et possimus velit dolor
+            corrupti, quis eaque optio sit tempore! A, dolor? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Omnis, nihil?</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- About section  -->
+  <div class="about-section pt-5 pb-4">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-sm-12">
+          <img class="w-75 img-thumbnail about-image shadow-lg mb-5 mt-4" src="./logo-img//logo-1.png" alt="">
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-sm-12">
+
+          <blockquote class="blockquote">
+            <h2> COMPANY TAGLINE </h2>
+            <p class="mb-3 mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Eos aliquid nesciunt maiores quisquam aut tempore?
+            </p>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, neque accusamus. Eveniet in explicabo
+              ab porro unde. Facere, pariatur consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Velit, cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit explicabo sit iste
+              voluptatem maiores aspernatur! </p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!--  this is service-section  -->
+  <div class="card-section py-5">
+    <div class="container-fluid px-5 py-4">
+
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-5">
+          <div class="row">
+            <div class="col-12 mb-5">
+              <div class="company-progress-header mb-5">
+                <h2>OUR SERVICE</h2>
+                <p> TAGLINE's service is now available in more then 80 country ! </p>
+                <p> Giveing you the best travel experience is always our top priority </p>
+                <p> You can leave everything to us </p>
+              </div>
+              <div class="company-progress">
+    
+                <div class="progress company-progress-bar mb-2">
+                  <div class="progress-bar text-left px-2 bar-bg" role="progressbar" style="width: 28%;" aria-valuenow="10"
+                    aria-valuemin="0" aria-valuemax="100"><b>2016</b></div>
+                </div>
+    
+                <div class="progress company-progress-bar mb-2">
+                  <div class="progress-bar text-left px-2 bar-bg" role="progressbar" style="width: 37%;" aria-valuenow="18"
+                    aria-valuemin="0" aria-valuemax="100"><b>2018</b></div>
+                </div>
+    
+                <div class="progress company-progress-bar mb-2">
+                  <div class="progress-bar text-left px-2 bar-bg" role="progressbar" style="width: 55%;" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100"><b>2020</b></div>
+                </div>
+    
+                <div class="progress company-progress-bar mb-2">
+                  <div class="progress-bar text-left px-2 bar-bg" role="progressbar" style="width: 68%;" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100"><b>2022</b></div>
+                </div>
+    
+                <div class="progress company-progress-bar mb-2">
+                  <div class="progress-bar text-left px-2 bar-bg" role="progressbar" style="width: 84%;" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100"><b>2024</b></div>
+                </div>
+    
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="table-text mb-4">
+                <h2 class="text-white"> LOREM </h2>
+                <p class="text-white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eligendi dolorem
+                  rem explicabo saepe, suscipit, dolorum nulla minima enim dolore ab obcaecati est ipsum! Impedit ratione ad
+                  totam, corrupti rerum excepturi dolores laboriosam quos repellat vero aut quo tempora magnam? </p>
+                <p class="text-white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eligendi dolorem
+                  rem explicabo saepe, suscipit, dolorum nulla minima enim dolore ab obcaecati est ipsum! Impedit ratione ad
+                  totam, corrupti rerum excepturi </p>
+              </div>
+              <table class="table table-hover table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-center">
+
+          <div class="row">
+            <div class="col-12 mb-5">
+
+              <div class="pack-offer-card px-1">
+
+                <div class="card-heading pb-2 mb-3">
+                  <div class="row">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12 card-logo"> <img
+                        src="./logo-img//logo-2.png" alt=""> </div>
+                    <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12 card-logo-text">
+                      <h5> TRAVEL THE WORLD WITH US </h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-offer px-3">
+                  <h4> LOREM <i class="fa-solid fa-plane-departure"></i> </h4>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem blanditiis odit excepturi
+                    autem
+                    quae, enim impedit asperiores hic vitae velit veniam similique, delectus ratione eius! </p>
+                </div>
+
+                <div class="card-offer-price">
+                  <div class="row">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 card-offer-price-1">
+                      <h2>10,000$</h2>
+                    </div>
+                    <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12 card-offer-price-2">
+                      <h3>World travel pack</h3>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="pack-offer-card custom-card-2">
+    
+                    <div class="card-heading pb-2 mb-3 px-2">
+                      <div class="row">
+                        <div class="col-12 card-logo text-center mb-2"> <img src="./logo-img//logo-3.png" alt=""> </div>
+                        <div class="col-12 card-logo-text">
+                          <h5> TRAVEL THE WORLD WITH US </h5>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="card-offer px-3">
+                      <h4> LOREM <i class="fa-solid fa-train"></i> </h4>
+                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem blanditiis odit excepturi
+                        autem
+                        quae, enim impedit asperiores hic vitae velit veniam similique, delectus ratione eius! </p>
+                    </div>
+    
+                    <div class="card-offer-price">
+                      <div class="row">
+                        <div class="col-12 card-offer-price-1 text-center">
+                          <h2>5000$</h2>
+                        </div>
+                        <div class="col-12 card-offer-price-2 text-center">
+                          <h3>World travel pack</h3>
+                        </div>
+                      </div>
+    
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                  <div class="pack-offer-card custom-card-3">
+    
+                    <div class="card-heading pb-2 mb-3 px-2">
+                      <div class="row">
+                        <div class="col-12 card-logo text-center mb-2"> <img src="./logo-img//logo-1.png" alt=""> </div>
+                        <div class="col-12 card-logo-text">
+                          <h5> TRAVEL THE WORLD WITH US </h5>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="card-offer px-3">
+                      <h4> LOREM <i class="fa-solid fa-ship"></i> </h4>
+                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem blanditiis odit excepturi
+                        autem
+                        quae, enim impedit asperiores hic vitae velit veniam similique, delectus ratione eius! </p>
+                    </div>
+    
+                    <div class="card-offer-price">
+                      <div class="row">
+                        <div class="col-12 card-offer-price-1 text-center">
+                          <h2>2500$</h2>
+                        </div>
+                        <div class="col-12 card-offer-price-2 text-center">
+                          <h3>World travel pack</h3>
+                        </div>
+                      </div>
+    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+        <div class="col-xxl-6 pr-5">
+          <div class="table-text mb-4">
+            <h2 class="text-white"> LOREM </h2>
+            <p class="text-white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eligendi dolorem
+              rem explicabo saepe, suscipit, dolorum nulla minima enim dolore ab obcaecati est ipsum! Impedit ratione ad
+              totam, corrupti rerum excepturi dolores laboriosam quos repellat vero aut quo tempora magnam? </p>
+            <p class="text-white"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eligendi dolorem
+              rem explicabo saepe, suscipit, dolorum nulla minima enim dolore ab obcaecati est ipsum! Impedit ratione ad
+              totam, corrupti rerum excepturi </p>
+          </div>
+          <table class="table table-hover table-dark">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-xxl-6 pl-5">
+          <div class="row">
+            <div class="col-6">
+              <div class="pack-offer-card custom-card-2">
+
+                <div class="card-heading pb-2 mb-3 px-2">
+                  <div class="row">
+                    <div class="col-12 card-logo text-center mb-2"> <img src="./logo-img//logo-3.png" alt=""> </div>
+                    <div class="col-12 card-logo-text">
+                      <h5> TRAVEL THE WORLD WITH US </h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-offer px-3">
+                  <h4> LOREM <i class="fa-solid fa-train"></i> </h4>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem blanditiis odit excepturi
+                    autem
+                    quae, enim impedit asperiores hic vitae velit veniam similique, delectus ratione eius! </p>
+                </div>
+
+                <div class="card-offer-price">
+                  <div class="row">
+                    <div class="col-12 card-offer-price-1 text-center">
+                      <h2>5000$</h2>
+                    </div>
+                    <div class="col-12 card-offer-price-2 text-center">
+                      <h3>World travel pack</h3>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="pack-offer-card custom-card-3">
+
+                <div class="card-heading pb-2 mb-3 px-2">
+                  <div class="row">
+                    <div class="col-12 card-logo text-center mb-2"> <img src="./logo-img//logo-1.png" alt=""> </div>
+                    <div class="col-12 card-logo-text">
+                      <h5> TRAVEL THE WORLD WITH US </h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-offer px-3">
+                  <h4> LOREM <i class="fa-solid fa-ship"></i> </h4>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem blanditiis odit excepturi
+                    autem
+                    quae, enim impedit asperiores hic vitae velit veniam similique, delectus ratione eius! </p>
+                </div>
+
+                <div class="card-offer-price">
+                  <div class="row">
+                    <div class="col-12 card-offer-price-1 text-center">
+                      <h2>2500$</h2>
+                    </div>
+                    <div class="col-12 card-offer-price-2 text-center">
+                      <h3>World travel pack</h3>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </div>
+
+  <!--  this is form & review section  -->
+  <div class="review-section py-5">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 mb-5 form-bottom">
+          <div class="row">
+            <div class="col-12 mb-5 form-heading">
+              <div class="form-header">
+                <h2> Give us your feedback </h2>
+              </div>
+            </div>
+            <div class="col-12">
+              <form>
+                <div class="row">
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 mb-2">
+                    <div>
+                      <label for="exampleInputEmail1" class="form-label">Name</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                  </div>
+                  <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col- mb-2">
+                    <div>
+                      <label for="exampleInputPassword1" class="form-label">Phone</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-12 mb-5">
+                    <label for="exampleInputEmail1" class="form-label">MESSAGE</label>
+                    <textarea class="form-control" placeholder="" name="" id="" cols="30" rows="4"></textarea>
+                  </div>
+                  <div class="col-12 mb-4">
+                    <div class="form-file form-file-md">
+                      <input type="file" class="form-file-input" id="customFileSm">
+                      <label class="form-file-label" for="customFileSm">
+                        <span class="form-file-text">Choose file...</span>
+                        <span class="form-file-button">Browse</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12 mb-4">
+                    <select class="form-select" aria-label="Default select">
+                      <option selected="">Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="col-12 mb-4">
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="formCheckDefault">
+                      <label class="form-check-label" for="formCheckDefault">Default checkbox</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="formCheckChecked" checked="">
+                      <label class="form-check-label" for="formCheckChecked">Checked checkbox</label>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary ml-2 w-25">Submit</button>
+    
+                  <form>
+    
+                  </form>
+    
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6">
+          <div class="row">
+            <div class="col-12 feedback-heading mb-5">
+              <div class="feedback-header">
+                <h2> Feedback from our custommer </h2>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="feedback-section">
+                <div class="row">
+    
+                  <div class="col-12 mb-5">
+                    <div class="card pt-3 pb-2 px-3 text-center bg-gray">
+                      <div class="feedback mb-4">
+                        <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolores minus officia?
+                          Beatae praesentium esse sed nisi, nesciunt soluta perferendis! </span>
+                      </div>
+                      <div class="feedback-customer">
+                        <div class="feedback-customer-image shadow-lg"></div>
+                        <div class="feedback-customer-deatils">
+                          <b> Josef </b>
+                          <p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col-12">
+                    <div class="card pt-3 pb-2 px-3 text-center bg-gray">
+                      <div class="feedback mb-4">
+                        <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolores minus officia?
+                          Beatae praesentium esse sed nisi, nesciunt soluta perferendis! Lorem ipsum dolor, sit amet
+                          consectetur adipisicing elit. Neque, amet? </span>
+                      </div>
+                      <div class="feedback-customer">
+                        <div class="feedback-customer-image shadow-lg"></div>
+                        <div class="feedback-customer-deatils">
+                          <b> Rayan </b>
+                          <p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  news section  -->
+  <div class="news-section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="news-header mb-5 text-center">
+          <h1> Latest updates </h1>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 mb-4">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./img//news-img-1.jpg" class="card-img-top" alt="img not found">
+            <div class="card-body">
+              <h5 class="card-title">Card with stretched links</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+
+              <p class="card-text bg-light" style="transform: rotate(0);">
+                This <a href="#" class="text-warning stretched-link">stretched link</a> will only be spread over the
+                <code>p</code>-tag, because a transform is applied to it.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 mb-4">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./img//news-img-2.jpg" class="card-img-top" alt="img not found">
+            <div class="card-body">
+              <h5 class="card-title">Card with stretched links</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+
+              <p class="card-text bg-light" style="transform: rotate(0);">
+                This <a href="#" class="text-warning stretched-link">stretched link</a> will only be spread over the
+                <code>p</code>-tag, because a transform is applied to it.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 mb-4">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="./img//news-img-3.jpg" class="card-img-top" alt="img not found">
+            <div class="card-body">
+              <h5 class="card-title">Card with stretched links</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+
+              <p class="card-text bg-light" style="transform: rotate(0);">
+                This <a href="#" class="text-warning stretched-link">stretched link</a> will only be spread over the
+                <code>p</code>-tag, because a transform is applied to it.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--  this is footer section  -->
+  <div class="footer-section py-5">
+    <div class="container-fluid px-5">
+      <div class="row">
+
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 mb-5">
+          <div class="row">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-xxl-6 co-xl-6 col-lg-6 col-md-12 col-sm-6 mb-4">
+                  <a href=""> <img class="w-100 footer-logo" src="./logo-img//logo-2.png" alt=""> </a>
+                </div>
+                <div class="col-xxl-6 co-xl-6 col-lg-6 col-md-12 col-sm-6">
+                  <ul class="footer-list">
+                    <h4 class="pb-2"> COMPANY </h4>
+                    <li> <a class="footer-text" href=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ex id eos, illum voluptatum distinctio quasi ea consequatur minima dolorem. </a> </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       <div class="col-xxl-8 col-xl-8 col-lg-6 col-md-6 footer-details-1">
+         <div class="row">
+          <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-6">
+            <ul class="footer-list">
+              <h4 class="pb-2"> HOME </h4>
+              <li> <a href="">HOME</a> </li>
+              <li> <a href="">OUR COMPANY</a> </li>
+              <li> <a href="">OUR PROGRESS</a> </li>
+              <li> <a href="">REVIEWS</a> </li>
+              <li> <a href="">NEWS</a> </li>
+            </ul>
+          </div>
+  
+          <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-6">
+            <ul class="footer-list">
+              <h4 class="pb-2"> TAGLINE </h4>
+              <li> <a href="">SERVICE</a> </li>
+              <li> <a href="">PRICE</a> </li>
+              <li> <a href="">LOCATION</a> </li>
+              <li> <a href="">REVIEWS</a> </li>
+              <li> <a href="">BENIFIT</a> </li>
+            </ul>
+          </div>
+  
+          <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 footer-deatils-2">
+            <ul class="footer-list">
+              <h4 class="pb-2"> CONTACT </h4>
+              <li> <a href=""> <i class="fa-solid fa-location-dot"></i> </a> </li>
+              <li> <a href=""> <i class="fa-brands fa-facebook"></i> </a> </li>
+              <li> <a href=""> <i class="fa-brands fa-twitter"></i> </a> </li>
+              <li> <a href=""> <i class="fa-brands fa-youtube"></i> </a> </li>
+              <li> <a href=""> <i class="fa-solid fa-envelope"></i> </a> </li>
+            </ul>
+          </div>
+         </div>
+       </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- Popper.js first, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
